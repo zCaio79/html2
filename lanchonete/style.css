@@ -1,0 +1,31 @@
+#tabela{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    padding: 4px;
+    box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+}
+.linha{
+    background-color: black;
+    color: white;
+}
+body{
+    background-image: url(imgs/lanchonete.jpg);
+    margin: 0;
+    padding: 200px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    
+#page{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 10px;
+}

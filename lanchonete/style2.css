@@ -1,0 +1,19 @@
+#contato-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 14px 3px rgba(0,0,0,0.75);
+}
+#container{
+    background-color: white;
+
+}
+body{
+    background-color: black;
+    
+}
