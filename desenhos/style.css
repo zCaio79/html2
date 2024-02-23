@@ -16,7 +16,7 @@ h1{
     align-items: center;
 }
 .filme_container{
-    background: rgb(242,242,242);
+    
     background: radial-gradient(circle, rgba(242,242,242,0.6587009803921569) 0%, rgba(0,0,0,1) 100%);
     padding: 20px;
     border: none;
