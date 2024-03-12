@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --header1: #4a5233;
+    --header2: #000000d1;
+    
+    
+    --main1: #0000004b;
+    --main2: #000000;
+
+    --fotter1: #4a5233;
+    --footer2: #000000;
+
+    --fontprimary: #ffffffed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url("background.png");
+    background-blend-mode:screen;
+    max-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 2vh;
+    position: fixed;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--fontprimary);
+    font-size: 45px;
+    margin-left: 5vh;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, var(--main2),var(--main1),var(--main2));
+    
+}
+.form-container{
+    height: fit-content;
+    background-color: #000000be;
+    color: var(--fontprimary);
+    padding: 5vh 5vh 3vh 5vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.form-container a{
+    text-decoration:none;
+    color: var(--fontprimary);
+    font-size: 20px;
+}
+form{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+#title{
+    font-size: 20px;
+}
+form label{
+    margin: 2vh 0 2vh 0;
+}
+#submit{
+    margin-top: 3vh;
+    border: none;
+    background-color: #ffffffc1;
+    border-radius: 5px 4px;
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3vh;
+    width: 100%;
+}
