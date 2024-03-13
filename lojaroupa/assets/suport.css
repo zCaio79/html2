@@ -1,4 +1,7 @@
+/*Import da Fonte Utiizada*/
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Root para facilitar a manipulação das cores atravéz de variaves*/
 :root{
     --header1: #4a5233;
     --header2: #000000d1;
@@ -12,6 +15,8 @@
 
     --fontprimary: #ffffffed;
 }
+
+/*Todo o css...*/
 
 *{
     box-sizing: border-box;
@@ -84,11 +89,18 @@ form label{
 #submit{
     margin-top: 3vh;
     border: none;
-    background-color: #ffffffc1;
-    border-radius: 5px 4px;
+    background-color: transparent;
+    border-radius: 10px;
     padding: 10px;
-    color: #000000;
+    color: var(--fontprimary);
     cursor: pointer;
+    border: 3px solid var(--fontprimary);
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+}
+#submit:hover{
+    background-color: var(--fontprimary);
+    color: var(--main2);
 }
 .icons {
     display: flex;
